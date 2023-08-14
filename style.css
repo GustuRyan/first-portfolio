@@ -1,0 +1,847 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 254, 242);
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: rgb(52, 77, 57);
+    height: 90px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.nav {
+    background-color: rgb(169, 203, 149);
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    z-index: 7;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.ul-nav {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    height: 70px;
+    width: 395px;
+    text-decoration: none;
+}
+
+.li-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 28px;
+    margin-top: 6px;
+    margin-right: 30px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+}
+
+.li-nav:hover {
+    background-color: rgb(156, 191, 136);
+    border-radius: 30px;
+}
+
+.a-nav {
+    color: rgb(241, 235, 225);
+    text-decoration: none;
+    font-weight: 1000;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.a-nav:hover {
+    color: rgb(68, 98, 74);
+}
+
+
+/*UPPER*/
+.upp {
+    margin-left: 10px;
+    margin-top: 210px;
+}
+
+.upper {
+    display: flex;
+    background-color: rgb(68, 98, 74);
+    height: 240px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    margin-top: 16vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p-up {
+    color: rgb(241, 235, 225);
+    display: flex;
+    position: absolute;
+    margin-top: 55px;
+    right: 340px;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.p-up1 {
+    color: rgb(247, 254, 242);
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    right: 469px;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.div-up {
+    display: flex;
+    background-color: rgb(241, 235, 225);
+    height: 140px;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    margin-top: -6vh;
+    margin-left: 32vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p-up2 {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: absolute;
+    margin-top: 48px;
+    right: 280px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.ul-up {
+    display: flex;
+    background-color: rgb(192, 207, 178);
+    height: 360px;
+    width: 360px;
+    border-radius: 228px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -54px;
+    margin-left: 80px;
+    box-shadow: 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+    text-align: center;
+}
+
+.foto {
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.248);
+}
+
+/*ABOUT ME*/
+.about-me {
+    margin-top: 80px;
+    height: 340px;
+    background-color: rgb(192, 207, 178);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ab {
+    height: 20px;
+    background-color: rgb(68, 98, 74);
+    margin-top:
+}
+
+.ab-title {
+    height: 65px;
+    width: 420px;
+    background-color: rgb(68, 98, 74);
+    border-radius: 50px;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+}
+
+.abteks {
+    color: rgb(241, 235, 225);
+    display: flex;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Catamaran', sans-serif;
+    margin-left: 145px;
+}
+
+.aboutme {
+    color: rgb(68, 98, 74);
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+    margin-left: 105px;
+    margin-right: 105px;
+    position: absolute;
+    top: 745px;
+    text-align: justify;
+}
+
+/*CONTENT*/
+.content {
+    display: flex;
+    background: linear-gradient(45deg, rgb(25, 35, 28), rgb(63, 94, 72));
+    height: 625px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.193);
+}
+
+.kontak {
+    color: rgb(247, 254, 242);
+    display: flex;
+    position: absolute;
+    right: 50%;
+    left: 45%;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Catamaran', sans-serif;
+    width: 200px;
+}
+
+.navcon1 {
+    background-color: rgb(241, 235, 225);
+    height: 80px;
+    width: 520px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WA {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 110px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.navcon2 {
+    background-color: rgb(241, 235, 225);
+    height: 80px;
+    width: 520px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Line {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.navcon3 {
+    background-color: rgb(241, 235, 225);
+    height: 80px;
+    width: 520px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 215px;
+    position: absolute;
+    right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navcon4 {
+    background-color: rgb(241, 235, 225);
+    height: 80px;
+    width: 520px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 445px;
+    position: absolute;
+    right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*LOWER*/
+.lower {
+    height: 730px;
+    background-color: rgb(192, 207, 178);
+    margin-top: 0px;
+}
+
+.batasan{
+    height: 50px;
+}
+
+.education {
+    color: rgb(68, 98, 74);
+    display: flex;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Catamaran', sans-serif;
+    width: 150px;
+}
+
+.smp {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: relative;
+    top: 14px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.smp::before {
+    content: "•";
+    padding-right: 10px;
+    font-size: 28px;
+}
+
+
+.sma {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: relative;
+    top: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.sma::before {
+    content: "•";
+    padding-right: 10px;
+    font-size: 28px;
+}
+
+.award {
+    color: rgb(68, 98, 74);
+    display: flex;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Catamaran', sans-serif;
+    width: 112px;
+}
+
+
+.win1 {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: relative;
+    top: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.win1::before {
+    content: "•";
+    padding-right: 10px;
+    font-size: 28px;
+}
+
+.win2 {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: relative;
+    top: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.win2::before {
+    content: "•";
+    padding-right: 10px;
+    font-size: 28px;
+}
+
+.win3 {
+    color: rgb(68, 98, 74);
+    display: flex;
+    position: relative;
+    top: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.win3::before {
+    content: "•";
+    padding-right: 10px;
+    font-size: 28px;
+}
+
+.low-line {
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height: 5px;
+    background-color: rgba(75, 96, 69, 0.586);
+    border-radius: 50px;
+}
+
+/*FOOTER*/
+.footer {
+    height: 100px;
+    background-color: rgb(125, 154, 124);
+    margin-top: 186px;
+}
+
+.batas {
+    margin-top: 20px;
+    height: 10px;
+}
+
+.tfooter {
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footline {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.cfooter {
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    width: 290px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*RESPONSIVE*/
+
+
+@media (max-width: 1320px) {
+    .p-up {
+        margin-top: 60px;
+        right: 20px;
+        font-size: 28px;
+    }
+
+    .p-up1 {
+        right: 120px;
+        margin-top: 95px;
+    }
+
+    .p-up2 {
+        margin-top: 30px;
+        text-align: center;
+        width: 500px;
+        right: 5px;
+    }
+
+    .kontak {
+        left: 43%;
+    }
+
+    .about-me {
+        height: 390px;
+    }
+
+    .aboutme {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .smp {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .sma {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .win1 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .win2 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .win3 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .upp {
+        margin-right: 10px;
+    }
+
+    .upper {
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        margin-top: 9vh;
+    }
+
+    .div-up {
+        border-radius: 150px;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: -10vh;
+    }
+
+    .ul-up {
+        margin-top: -90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 260px;
+        width: 260px;
+    }
+
+    .foto {
+        margin-top: 30px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .p-up {
+        color: rgb(52, 77, 57);
+        display: flex;
+        margin-top: 180px;
+        right: 175px;
+    }
+
+    .p-up1 {
+        display: none;
+    }
+
+    .p-up2 {
+        display: none;
+    }
+    .about-me {
+        height: 490px;
+    }
+
+    .aboutme {
+        top: 800px;
+    }
+
+    .content {
+        margin-top: 100px;
+    }
+    .WA {
+        margin-left: 18px;
+    }
+    .Line {
+        margin-left: 36px;
+    }
+    .navcon1 {
+        width: 320px;
+    }
+
+    .navcon2 {
+        width: 320px;
+    }
+
+    .navcon3 {
+        width: 320px;
+    }
+
+    .navcon4 {
+        width: 320px;
+    }
+
+    .aboutme {
+        margin-top: -80px;
+    }
+    .lower {
+        height: 830px;
+    }
+}
+
+@media (max-width: 630px) {
+    .upp {
+        margin-right: 10px;
+    }
+
+    .upper {
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        margin-top: 9vh;
+    }
+
+    .div-up {
+        border-radius: 150px;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: -10vh;
+    }
+
+    .ul-up {
+        margin-top: -90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 260px;
+        width: 260px;
+    }
+
+    .foto {
+        margin-top: 30px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .p-up {
+        display: none;
+    }
+
+    .p-up1 {
+        display: none;
+    }
+
+    .p-up2 {
+        display: none;
+    }
+    .about-me {
+        height: 640px;
+    }
+
+    .content {
+        margin-top: 100px;
+    }
+    .WA {
+        margin-left: 18px;
+    }
+    .Line {
+        margin-left: 36px;
+    }
+    .navcon1 {
+        width: 320px;
+    }
+
+    .navcon2 {
+        width: 320px;
+    }
+
+    .navcon3 {
+        width: 320px;
+    }
+
+    .navcon4 {
+        width: 320px;
+    }
+
+    .aboutme {
+        margin-top: -80px;
+    }
+    .lower {
+        height: 830px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+
+    .ul-nav {
+        width: 400px;
+    }
+
+    .li-nav {
+        margin-top: 25px;
+        margin-left: 45px;
+        padding: 2px;
+        height: 20px;
+    }
+
+    .upp {
+        margin-right: 10px;
+        margin-top: 150px;
+    }
+
+    .upper {
+        margin-left: 0px;
+        height: 240px;
+        border-radius: 150px;
+    }
+
+    .foto {
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .div-up {
+        height: 110px;
+        border-radius: 150px;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .ul-up {
+        width: 220px;
+        height: 220px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+    }
+
+    .p-up {
+        text-align: center;
+        width: 280px;
+        display: flex;
+        font-size: 24px;
+        margin-top: 190px;
+        right: 55px;
+    }
+
+    .p-up1 {
+        display: none;
+    }
+
+    .p-up2 {
+        display: none;
+    }
+
+    .ab-title {
+        width: 280px;
+    }
+
+    .about-me {
+        margin-top: 40px;
+        height: 700px;
+    }
+
+    .content {
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 42px;
+        margin-bottom: 108px;
+        margin-top: 110px;
+    }
+    .kontak {
+        left: 28%;
+    }
+    .navcon1 {
+        width: 320px;
+        border-radius: 50px;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .navcon2 {
+        width: 320px;
+        border-radius: 50px;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .navcon3 {
+        width: 320px;
+        border-radius: 50px;
+        display: block;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .navcon4 {
+        width: 320px;
+        border-radius: 50px;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footer {
+        margin-top: 220px;
+    }
+
+    .abteks {
+        margin-left: 71px;
+    }
+
+    .aboutme {
+        top: 650px;
+    }
+    .about-me {
+        height: 900px;
+    }
+    .lower {
+        height: 1400px;
+    }
+}
